@@ -1,0 +1,43 @@
+
+    @font-face {font-family: 'NotoSansCJKkr-Light';
+        src: url("../fonts/NotoSansCJKkr-Light.otf") format("opentype");}
+     @font-face {font-family: 'NotoSansCJKkr-Bold';
+        src: url("../fonts/NotoSansCJKkr-Bold.otf") format("opentype");}      
+
+/* 공통 */
+*{margin: 0; padding: 0;}
+ul,li{list-style: none;}
+.space{clear: both;}
+.inner{width: 1400px; margin: 0 auto;}
+body{overflow-x: hidden;}
+.footer_info{font-family: 'NotoSansCJKkr-Light';}
+.menu{font-family: 'NotoSansCJKkr-Bold';}
+/* 헤더부분 */
+#header{width: 100%; height: 88px; line-height: 88px;}
+.logo{width: 90px; height: 20px; float: left; vertical-align: middle;}
+#header>.inner{width: 1400px; height: 90px; position: relative;}
+.menu{width: 600px; position: absolute; left: 0; right: 0; margin: 0 auto;}
+.menu>li{width: 100px; float: left; text-align: center;}
+.icon{float: right; width: 54px; height: 54px; padding-top: 20px}
+
+/* 메인이미지부분  1895 713*/
+#mainimg{width: 100%; height: 862px; position: relative;}
+.main_img{background-image: url(../images/mainimg.jpg); width: 100%; height: 713px; background-size: cover; position: absolute; left: 0; right: 0; margin: 0 auto; top: 150px;}
+.mainline{width: 548px; height: 47px; float: right;  background-image: url(../images/mainline.jpg); position: absolute; right: 13%; margin: 0 auto; top: 85px;}
+.prev{width: 31px; height: 60px; position: absolute; left: 15%; top: 40%;}
+.next{width: 31px; height: 60px; position: absolute; right: 15%; top: 40%;}
+
+/* 컨텐츠 부분 */
+.list{width: 25%; float: left; padding-top: 105px;}
+.list>h2{padding-bottom: 20px; font-family: 'NotoSansCJKkr-Bold'; font-size: 31px;}
+.list>p{padding-bottom: 40px; font-size: 14px; font-family: 'NotoSansCJKkr-Light'; line-height: 24px}
+.box2{width: 100%; height: 240px; margin-top: 130px;}
+.box_text{float: left; padding-top: 100px; font-size: 21px; font-family: 'NotoSansCJKkr-Light';}
+.info{float: right; width: 144px; height: 144px; line-height: 240px; padding-right: 110px; padding-top: 50px;}
+
+/* 푸터 부분 */
+#footer{height: 100px; background-color: #000;}
+.footer_info{float: left; font-size: 11px; color: #666; padding-top: 30px;}
+.footer_btn{float: right; margin-top: 35px; width: 140px; height: 40px; border: 1px solid #857d7d; color: #857d7d;  background-color: #000; padding-left: 10px; font-family: 'NotoSansCJKkr-Light';}
+.footer_info{font-size: 14px; color: #857d7d; font-family: 'NotoSansCJKkr-Light';}
+.footer_info>span{font-size: 17px; color: #c2c2c2; font-family: 'NotoSansCJKkr-Light';}
